@@ -1,0 +1,20 @@
+Source: java-wrappers
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Vincent Fourmond <fourmond@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Vcs-Svn: svn://svn.debian.org/svn/pkg-java/trunk/java-wrappers
+Vcs-Browser: http://svn.debian.org/viewsvn/pkg-java/trunk/java-wrappers
+
+
+Package: java-wrappers
+Depends: ${misc:Depends}, unzip
+Architecture: all
+Description: wrappers for java executables
+ Wrapper script facilities for java executables.
+ . 
+ This package can be used by packagers of java programs to
+ provide java runtime detection, jar lookup and a consistent
+ user interface (debugging, environment variables).
